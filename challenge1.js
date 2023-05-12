@@ -1,5 +1,5 @@
 const myBoolean = true; 
-const myString = 'hello world';
+const myString = 'sup btch';
 const firstNumber = 20;
 const secondNumber = 40;
 let secondNumber1 = 40; 
