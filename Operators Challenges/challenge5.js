@@ -1,7 +1,7 @@
 const myObj = {
     nestedObject1: {
         price: 100,
-        quantity: 2
+        quantity: 5
     },
     nestedObject2: {
         price: 150,
