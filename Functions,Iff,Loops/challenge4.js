@@ -9,3 +9,7 @@ function makeNegative(num) {
     
   }
   console.log(makeNegative())
+//absolute value
+  function makeNegativeabs(num1){
+    return -Math.abs(num);
+  }
