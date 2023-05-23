@@ -13,6 +13,7 @@ class SmallestIntegerFinder {
         }
       }
         return leastNumber;
+        
     }
+    
   }
-  
