@@ -1,8 +1,11 @@
 function makeNegative(num) {
     // Code?
-    num = 123
-    if (typeof(num == 'number'))
-      return num * -1
-    return 0
+    num = -42
+    if (num < 0)
+        return num
+    else
+        return num * -1
+    
+    
   }
   console.log(makeNegative())
