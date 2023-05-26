@@ -15,12 +15,18 @@ const  isValid = emailValidatorRegEx.test(userInput);
  console.log(/^/.test(string1))//beginning letter
  console.log(/k$/.test(string1)) //end letter
  console.log(/(code | steak)/.test(string1))
+//.test confirms if it is true/false
+//.exec matches the pattern of the string
+ 
 
- //quantifiers
-
+//quantifiers
  /[a-z]*/ //0 or more
  /[a-z]?/ //0 or 1
  /[a-z]+/ //1 or more
+ /[a-z]{2,6}/ //matches the preceeding characters.
+ /[a-z ]*/ /*space matches the whole sentence
 
- /[a-z]{2,6}/ 
-  
+
+const str = 'hello world, 2021  @ more of a string'; 
+const regex = /[a-z ]+,[0-9 ]+@[a-z ]+/.exec(str);
+console.log(regex);
