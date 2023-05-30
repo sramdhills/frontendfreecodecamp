@@ -1,4 +1,6 @@
 arr = [1, 2, 3];
+//forEach() method executes a provided function once for each array element. 
+
 arr.forEach(arrItem => {
     console.log(arrItem)
 })
